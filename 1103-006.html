@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>form태그의 요소</title>
+</head>
+<body>
+    <form action="action.php">
+        <input type="email" placeholder="이메일 입력" required><br>
+        <input type="submit" value="확인" >       <!--ㄴ검사태그/type의 필수요소가 들어있는지 확인해줌-->
+    </form><br><br>
+    <form action="action1.php">
+        <input type="url" placeholder="주소입력" required><br>
+        <input type="submit" value="확인"><br><br>
+       
+    </form>
+    <form action="action2">
+        <textarea name="" id=""  cols="30" rows="10"></textarea>
+        <h1>당신의 성별은?</h1>
+        <input type="radio" name="male">여성 
+        <input type="radio" name="male">남성<br><br>
+        <input type="submit" value="제출">
+        <h2>당신의 취미를 2가지 이상 선택 해주세요.</h2>
+        <input type="checkbox" name="fishing">낚시
+        <input type="checkbox" name="soccer">축구
+        <input type="checkbox" name="tv">티비시청
+        <input type="checkbox" name="baseball">야구<br>
+        <input type="submit" value="제출"><br>
+        <input type="password" name="비밀번호" autocomplete="false">
+                                                <!-- 자동완성 끔 -->
+    </form>
+</body>
+</html>

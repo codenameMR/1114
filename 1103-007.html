@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폼의 요소</title>
+</head>
+<body>
+    <form action="action.php">
+        <input type="tel"> <br><!--전화키패드,모바일에서만 작동-->
+        <input type="number" step="10"><br><!--step안의 값만큼 증감-->
+        <input type="range" autofocus><br>
+        <input type="hidden"><!--사용자에게는 노출안됨, 개발자가 보는 용도고유한 보안 토큰 등을 서버로 보낼 때 주로 사용됩-->
+        <h3>당신의 학과는?</h3>
+        <select name="" id="" size="1">
+            <option value="">건축공학과</option>
+            <option value="">도시공학과</option>
+            <option value="">감귤재배학과</option>
+            <option value="">컴퓨터공학과</option>
+            <option value="">우리이제뭐할과</option>
+        </select><br><br>
+        <textarea name="" id="" cols="30" rows="10" readonly>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur corrupti inventore odio quaerat asperiores dolores alias, qui labore et dolore omnis minus quidem incidunt dolorem aliquid doloribus nemo est repudiandae!</textarea>
+        <!-- readonly 말 그대로 읽을 수만 있는 태그, 지울 수도 쓸 수도 없다. -->
+    </form>
+</body>
+</html>
